@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+a:hover{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+div{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0
+
+}
+
+.btn-menu{
+    font-weight: 400;
+    font-size: 81.25%
+}
+
+.btn-menu{
+    color: rgb(29, 29, 29);
+    font-weight: 400;
+}
+
+.li-btn{
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    padding: 0px 15px;
+    border-radius: 1em;
+    color: #fff;
+    display: table-cell;
+    height: 40px;
+    list-style-type: none;
+    
+    vertical-align: middle;
+}
+
+.li-btn .btn-menu{
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 1em;
+    transition: .3s all ease-in-out;
+    font-weight: 200
+
+}
+
+.li-btn a:hover{
+     background-color: #fff;
+     color: #000   
+
+}
+
+
+
+
+.nav-hero{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    position: fixed;
+    z-index: 5;
+    
+
+}
+
+.nav-hero .nav-brand{
+    width: 18%;
+    display: inline-block;
+    padding: 5px
+}
+
+.nav-hero .nav-brand .nav-brand-img{
+    width: 100%
+}
+
+.nav-hero .nav-menu{
+    width: 80%;
+    display: inline-block;
+    
+    
+}
+
+.nav-hero .nav-menu .nav-menu-up{
+    border-bottom: solid 2px #fff;
+    text-align: right;
+    font-size: 81.25%;
+    height: 50%;
+    
+}
+
+
+
+.nav-hero .nav-menu .nav-menu-up div{
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.nav-hero .nav-menu .menu-down-item-a{
+    width: 70%;
+    display: table-cell
+}
+
+.menu-down-item-b{
+    display: table-cell;
+    width: 24%
+}
+
+.li-btn .btn-menu-2{
+    color: #fff;
+    border: #fff solid 1px;
+    padding: 5px 5px;
+    border-radius: 1em;
+    transition: .3s all ease-in-out;
+    font-weight: 200;
+    font-size: 81.25%
+
+}
+
+.carousel-item{
+    height: 100vh;
+}
+
+.carousel-item img{
+    object-fit: cover
+}
+
+.carousel-hero{
+    position: relative;
+}
+
+.carousel-hero .content-slider{
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    bottom: 20%
+}
+
+.carousel-hero .content-slider h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.36);
+}
+
+.carousel-hero .content-slider .price{
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    
+}
+
+.carousel-hero .content-slider .price h3{
+    margin:0;
+    color: #ffb000;
+    font-weight: bold;
+    font-size: 2.1em
+}
+
+.carousel-hero .carousel-indicators{
+    bottom: 100px
+}
+
+.carousel-hero .news-whatsapp{
+    position: relative;
+    height: 26px;
+}
+
+.carousel-hero .news-whatsapp input{
+    margin-top: 15px;
+    background: transparent;
+    border: solid 1px #fff;
+    padding-left: 30px;
+    height: 100%;
+    color: #ccc;
+    
+
+}
+
+.carousel-hero .btn-reserva{
+    background-color: #ffb000;
+    color: #fff;
+    font-weight: bold;
+    height: 26px;
+    vertical-align: bottom;
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+.carousel-hero .news-whatsapp input::placeholder{
+    color: #fff;
+    font-size: 15px
+}
+
+.carousel-hero .news-whatsapp .icon{
+    background-color: #fff;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.carousel-hero .news-whatsapp i{
+    color: #ffb000;
+    background-color: #fff;
+
+}
+
+.content-slider-skill{
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    height: 90px;
+    position: relative;
+    z-index: 10;
+    margin-top: -90px;
+
+}
+
+.content-slider-skill .skill-items{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    
+}
+
+.content-slider-skill .skill-items .skill-item{
+    padding: 10px;
+    position: inline-block
+}
+
+.content-slider-skill .skill-items .skill-item img{
+    width: 80%;
+    margin: 0 auto
+}
+
+.skill-items .skill-item .skill-number{
+
+}
+
+.skill-icon, .skill-date{
+    display: table-cell
+}
+
+.skill-date{
+    text-align: center;
+    color: #fff
+}
+
+.skill-date span{
+    font-size: 35px
+}
+
+.skill-date p{
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
