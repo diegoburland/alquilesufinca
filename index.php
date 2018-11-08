@@ -5,6 +5,7 @@
 <?php require "includes/navbar.php" ?>
 <?php require "includes/carousel.php" ?>
 <?php require "includes/content.php" ?>
+<?php require "includes/brands.php" ?>
 <?php require "includes/footer.php" ?>
 </body>
 </html>

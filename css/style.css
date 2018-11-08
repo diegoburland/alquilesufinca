@@ -36,6 +36,10 @@ ul{
 
 }
 
+.mix-content{
+   margin-bottom: 40px
+}
+
 .btn-menu{
     font-weight: 400;
     font-size: 81.25%
@@ -46,102 +50,6 @@ ul{
     font-weight: 400;
 }
 
-.li-btn{
-    transition: all .3s ease-in-out;
-    display: inline-block;
-    padding: 0px 15px;
-    border-radius: 1em;
-    color: #fff;
-    display: table-cell;
-    height: 40px;
-    list-style-type: none;
-    
-    vertical-align: middle;
-}
-
-.li-btn .btn-menu{
-    color: #fff;
-    padding: 5px 5px;
-    border-radius: 1em;
-    transition: .3s all ease-in-out;
-    font-weight: 200
-
-}
-
-.li-btn a:hover{
-     background-color: #fff;
-     color: #000   
-
-}
-
-
-
-
-.nav-hero{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0,0,0,.4);
-    color: #fff;
-    position: fixed;
-    z-index: 5;
-    
-
-}
-
-.nav-hero .nav-brand{
-    width: 18%;
-    display: inline-block;
-    padding: 5px
-}
-
-.nav-hero .nav-brand .nav-brand-img{
-    width: 100%
-}
-
-.nav-hero .nav-menu{
-    width: 80%;
-    display: inline-block;
-    
-    
-}
-
-.nav-hero .nav-menu .nav-menu-up{
-    border-bottom: solid 2px #fff;
-    text-align: right;
-    font-size: 81.25%;
-    height: 50%;
-    
-}
-
-
-
-.nav-hero .nav-menu .nav-menu-up div{
-    display: inline-block;
-    padding-right: 15px;
-    padding-left: 15px
-}
-
-.nav-hero .nav-menu .menu-down-item-a{
-    width: 70%;
-    display: table-cell
-}
-
-.menu-down-item-b{
-    display: table-cell;
-    width: 24%
-}
-
-.li-btn .btn-menu-2{
-    color: #fff;
-    border: #fff solid 1px;
-    padding: 5px 5px;
-    border-radius: 1em;
-    transition: .3s all ease-in-out;
-    font-weight: 200;
-    font-size: 81.25%
-
-}
 
 .carousel-item{
     height: 100vh;
@@ -262,6 +170,29 @@ ul{
     margin: 0 auto
 }
 
+.title-content-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.title-content-container .title-content{
+    
+}
+
+.title-content-container .line{
+    height: 5px;
+    background-color: #000;
+    width: 45px;
+    border-radius: 20px
+}
+
+.title-content-container .title-content h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0
+}
+
 .skill-items .skill-item .skill-number{
 
 }
@@ -282,6 +213,69 @@ ul{
 .skill-date p{
     font-size: 11px;
 }
+
+.gallery{
+    width: 1250px;
+    height: 300px;
+    margin: auto
+}
+
+.gallery-items{
+    width: 100%;
+
+}
+
+.gallery-item{
+    width: 250px;
+    height: 300px;
+    overflow:hidden;
+    margin: auto;
+    margin-right: -4px;
+    display: -webkit-inline-box;
+     
+}
+
+.gallery-img{
+    height: 100%;
+    object-fit: cover
+    
+
+}
+
+.gallery-content{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: -50px
+}
+
+.about .cabout{
+    margin: 40px 0 0 10px
+}
+
+.about .title-content-container,
+.content-hero-2 .title-content-container{
+    display: block
+}
+
+.about .number{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffb000;
+    margin-right: 4px
+}
+
+.about .title{
+    color: #ffb000
+}
+
+
+.slider-two .carousel-item{
+    height: auto!important
+}
+
+
+
 
 
 
