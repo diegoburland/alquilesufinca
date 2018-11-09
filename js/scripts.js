@@ -28,9 +28,11 @@ $(document).ready(function(){
       
     $(window).scroll(function(){
         if($(window).scrollTop()> 200){
-           
+           $('.nav-hero').addClass('scroll');
+           $('.nav-menu-up').fadeOut('slow')
         }else{
-           
+          $('.nav-hero').removeClass('scroll');
+          $('.nav-menu-up').fadeIn('slow')
         }
     })
 })

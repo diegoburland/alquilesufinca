@@ -50,6 +50,93 @@ ul{
     font-weight: 400;
 }
 
+.nav-hero{
+    display: flex;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    z-index: 50;
+    color: #fff;
+    width: 100%;
+}
+
+.nav-hero a{
+    color: #fff
+}
+
+.nav-hero .nav-brand{
+    width: 18%;
+    transition: all .8s ease-in-out;
+}
+
+.nav-hero .nav-brand-img{
+    width: 100%
+}
+
+.nav-hero .nav-menu{
+    width: 100%
+}
+
+.nav-hero .nav-menu-up{
+    display: flex;
+    padding: 0 1%;
+    justify-content: space-around;
+    height: 38px;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+    transition: all .8s ease-in-out
+}
+
+.nav-hero .nav-menu-up div{
+    font-size: 81.75%
+}
+
+.nav-hero .menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-hero .menu-down-item-a ul{
+    display: flex;
+    justify-content: space-around
+}
+
+.nav-hero .menu-down-item-a li a{
+    padding: 0 15px
+}
+
+
+
+.nav-hero .menu-down-item-b ul{
+    display: flex;
+    justify-content: space-around
+}
+
+.nav-hero .menu-down-item-b li a{
+    font-size: 13px;
+    padding: 0 15px
+}
+
+
+.nav-menu .nav-menu-down{
+    height: 38px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    transition: all .8s ease-in-out
+}
+
+.nav-hero.scroll{
+    background-color: #000
+}
+
+.nav-hero.scroll .nav-menu-up{
+    display: none
+}
+
+.nav-hero.scroll .nav-brand{
+    width: 10%
+}
 
 .carousel-item{
     height: 100vh;

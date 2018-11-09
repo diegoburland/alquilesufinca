@@ -6,16 +6,14 @@
     </div>
     <div class="nav-menu">
         <div class="nav-menu-up">
-            <div class="menu-up-item">
-                <div class="address">
-                    <span>Calle 10 # 42 - 45 Local 265 (Edificio Plaza Poblado) </span>
-                </div>
-                <div class="phone">
-                    <span>Calle 10 # 42 - 45 Local 265 (Edificio Plaza Poblado) </span>
-                </div>
-                <div class="network">
-                    <span>Calle 10 # 42 - 45 Local 265 (Edificio Plaza Poblado) </span>
-                </div>
+            <div class="address">
+                <span>Calle 10 # 42 - 45 Local 265 (Edificio Plaza Poblado) </span>
+            </div>
+            <div class="phone">
+                <span>Calle 10 # 42 - 45 Local 265 (Edificio Plaza Poblado) </span>
+            </div>
+            <div class="network">
+                <span>Calle 10 # 42 - 45 Local 265 (Edificio Plaza Poblado) </span>
             </div>
         </div>
         <div class="nav-menu-down">
